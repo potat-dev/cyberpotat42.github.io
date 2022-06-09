@@ -3,7 +3,7 @@ backend:
   name: git-gateway
   repo: CyberPotat42/cyberpotat42.github.io
   branch: main
-  site_domain: https://cyberpotato.ml
+  site_domain: https://cyberpotato.netlify.app/
 media_folder: 'assets/uploads'
 
 collections:
