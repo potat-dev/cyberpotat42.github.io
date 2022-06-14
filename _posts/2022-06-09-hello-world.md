@@ -7,7 +7,7 @@ tags:
   - test
 thumbnail: https://www.idlememe.com/wp-content/uploads/2021/10/shrek-meme-idlememe-1.jpg
 rating: 5
-pin: true
+pin: false
 ---
 
 # Hello World
