@@ -1,6 +1,6 @@
 # config.yml
 backend:
-  name: github
+  name: git-gateway
   repo: CyberPotat42/cyberpotat42.github.io
   branch: main
   site_domain: https://cyberpotato.netlify.app/
