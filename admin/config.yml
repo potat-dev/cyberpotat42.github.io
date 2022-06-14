@@ -26,6 +26,7 @@ collections:
   - name: 'pages'
     label: 'Pages'
     label_singular: 'Page'
+    folder: '_tabs/'
     editor:
       preview: false
     files:
