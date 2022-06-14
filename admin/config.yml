@@ -1,9 +1,9 @@
 # config.yml
 backend:
-  name: git-gateway
+  name: github
   repo: CyberPotat42/cyberpotat42.github.io
-  branch: main
-  site_domain: https://cyberpotato.netlify.app/
+  branch: gh-pages
+  site_domain: https://cyberpotato.ml/
 media_folder: 'assets/uploads'
 
 collections:
