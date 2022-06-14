@@ -2,8 +2,8 @@
 backend:
   name: github
   repo: CyberPotat42/cyberpotat42.github.io
-  branch: gh-pages
-  site_domain: https://cyberpotato.ml/
+  branch: main
+  # site_domain: https://cyberpotato.ml/
 media_folder: 'assets/uploads'
 
 collections:
