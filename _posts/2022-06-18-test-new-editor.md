@@ -1,6 +1,6 @@
 ---
 title: test new editor
-date: 2022-06-18 23:06:98 +0300
+date: 2022-06-18 23:06:00 +0300
 thumbnail: https://i.pinimg.com/736x/70/2a/65/702a65b68102d0d865c851898da321b8.jpg
 pin: false
 tags:
