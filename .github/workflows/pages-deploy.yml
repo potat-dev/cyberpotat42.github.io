@@ -35,8 +35,9 @@ jobs:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           format: markdown
           message: |
-            ${{ github.actor }} created commit:
-            Commit message: ${{ github.event.commits[0].message }}
+            New commit:
+            ${{ github.event.commits[0].message }}
 
-            [Repository](${{ github.repository }})
-            [See changes](https://github.com/${{ github.repository }}/commit/${{github.sha}})
+            [[ see changes ]](https://github.com/${{ github.repository }}/commit/${{github.sha}})
+            [[ view deployment ]](https://cyberpotato.ml)
+
