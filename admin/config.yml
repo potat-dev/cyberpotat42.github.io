@@ -19,12 +19,16 @@ collections:
     fields: # The fields for each document, usually in front matter
       # - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:MM:SS ZZ"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
       - {label: "Pin", name: "pin", widget: "boolean", default: false}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Table of Contents", name: "toc", widget: "boolean", default: true}
+      - {label: "Comments", name: "comments", widget: "boolean", default: true}
+      - {label: "Math", name: "math", widget: "boolean", default: false}
+      - {label: "Mermaid", name: "mermaid", widget: "boolean", default: false}
+
   - name: 'pages'
     label: 'Pages'
     label_singular: 'Page'
