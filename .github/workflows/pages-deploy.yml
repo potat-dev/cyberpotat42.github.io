@@ -38,6 +38,6 @@ jobs:
             New commit:
             ${{ github.event.commits[0].message }}
 
-            [ [see changes](https://github.com/${{ github.repository }}/commit/${{github.sha}}) ]
-            [ [view deployment](https://cyberpotato.ml) ]
+            \[ [see changes](https://github.com/${{ github.repository }}/commit/${{github.sha}}) ]
+            \[ [view deployment](https://cyberpotato.ml) ]
 
