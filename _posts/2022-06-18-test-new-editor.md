@@ -30,7 +30,7 @@ abc
 
 123
 
-{% include button.html button_name="My Button" button_class="primary" button_href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" %}
+{% include button.html button_name="My Button" button_class="default" button_href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" %}
 
 test
 
