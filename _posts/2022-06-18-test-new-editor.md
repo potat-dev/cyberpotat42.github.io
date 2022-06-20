@@ -18,3 +18,7 @@ abc
 # test
 
 123
+
+{% include button.html button_name="My Button" button_class="primary" %}
+
+test
