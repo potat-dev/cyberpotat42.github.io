@@ -18,13 +18,13 @@ mermaid: false
 abc
 
 [Default Button Text](https://www.youtube.com/watch?v=dQw4w9WgXcQ){: .btn}
-[Primary Button Text](https://www.youtube.com/watch?v=dQw4w9WgXcQ){: .btn .btn--primary}
-[Success Button Text](https://www.youtube.com/watch?v=dQw4w9WgXcQ){: .btn .btn--success}
-[Warning Button Text](https://www.youtube.com/watch?v=dQw4w9WgXcQ){: .btn .btn--warning}
-[Danger Button Text](https://www.youtube.com/watch?v=dQw4w9WgXcQ){: .btn .btn--danger}
-[Info Button Text](https://www.youtube.com/watch?v=dQw4w9WgXcQ){: .btn .btn--info}
-[Inverse Button](https://www.youtube.com/watch?v=dQw4w9WgXcQ){: .btn .btn--inverse}
-[Light Outline Button](https://www.youtube.com/watch?v=dQw4w9WgXcQ){: .btn .btn--light-outline}
+[Primary Button Text](https://www.youtube.com/watch?v=dQw4w9WgXcQ){: .btn--primary}
+[Success Button Text](https://www.youtube.com/watch?v=dQw4w9WgXcQ){: .btn--success}
+[Warning Button Text](https://www.youtube.com/watch?v=dQw4w9WgXcQ){: .btn--warning}
+[Danger Button Text](https://www.youtube.com/watch?v=dQw4w9WgXcQ){: .btn--danger}
+[Info Button Text](https://www.youtube.com/watch?v=dQw4w9WgXcQ){: .btn--info}
+[Inverse Button](https://www.youtube.com/watch?v=dQw4w9WgXcQ){: .btn--inverse}
+[Light Outline Button](https://www.youtube.com/watch?v=dQw4w9WgXcQ){: .btn--light-outline}
 
 # test
 
