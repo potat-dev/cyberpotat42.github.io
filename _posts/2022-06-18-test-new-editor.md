@@ -63,3 +63,5 @@ gfsghfghs
 * fsg
 
 ![shg](/assets/uploads/сегодня-не-среш.jpg "gsh")
+
+{% include tg-comments.html %}
