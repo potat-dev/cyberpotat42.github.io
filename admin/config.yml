@@ -1,0 +1,45 @@
+# config.yml
+
+backend:
+  name: github
+  repo: CyberPotat42/cyberpotat42.github.io
+  branch: main
+  # site_domain: https://cyberpotato.ml/
+media_folder: 'assets/uploads'
+
+collections:
+  - name: 'posts'
+    label: 'Posts'
+    label_singular: 'Post'
+    folder: '_posts/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter
+      # - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss ZZ"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Pin", name: "pin", widget: "boolean", default: false}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Table of Contents", name: "toc", widget: "boolean", default: true}
+      - {label: "Comments", name: "comments", widget: "boolean", default: true}
+      - {label: "Math", name: "math", widget: "boolean", default: false}
+      - {label: "Mermaid", name: "mermaid", widget: "boolean", default: false}
+
+  - name: 'pages'
+    label: 'Pages'
+    label_singular: 'Page'
+    folder: '_tabs/'
+    editor:
+      preview: false
+    files:
+      - label: 'About Page'
+        name: 'about'
+        file: 'about.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
